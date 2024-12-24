@@ -1,0 +1,35 @@
+.SideBarDialogBox {
+    position: fixed;
+    right: 0;
+    width: 28vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: end;
+    background-color: black;
+    z-index: 1000;
+}
+
+
+
+
+
+
+.TextContainer{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 5% 5%;
+}
+
+
+.TextContainer h1{
+    text-align: center;
+    color: white;
+  font-size: 50px;
+  font-weight: 1000;
+
+}
